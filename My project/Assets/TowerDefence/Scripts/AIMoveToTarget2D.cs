@@ -17,7 +17,7 @@ namespace TowerDefence.Scripts
             rb.gravityScale = 0f;
         }
 
-        void FixedUpdate()
+        void Update()
         {
             if (target == null) return;
 

@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace TowerDefence.Scripts
 {
     public class Singleton : MonoBehaviour
     {
         public Circunferencia2D circunferencia;
+        public List<ZombieAnimation> _zombieAnimations = new ();
         private static Singleton instance;
 
         public static Singleton _Instance
