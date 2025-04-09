@@ -144,6 +144,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Assembly-CSharp:
+    - TowerDefence.Scripts.Health
     - TowerDefence.Scripts.SpriteController
     - TowerDefence.Scripts.WaveController
     Unity.InputSystem:
@@ -581,7 +582,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5400fa9c851e390a577af86bb3828eac
+      Hash: 7412a0fe67dca3eb9d1797314ff86912
     assemblyName: Assembly-CSharp
     namespaceName: TowerDefence.Scripts
     className: SpawnMontersController
@@ -1169,7 +1170,7 @@ ScriptsOnlyBuild:
     className: InputActionReference
   - hash:
       serializedVersion: 2
-      Hash: dc15aa0ba49d0531aa7700e6b15fe946
+      Hash: a4ea2220a8934f249cbc01bf76f9c0c6
     assemblyName: Assembly-CSharp
     namespaceName: TowerDefence.Scripts
     className: ZombieAnimation
