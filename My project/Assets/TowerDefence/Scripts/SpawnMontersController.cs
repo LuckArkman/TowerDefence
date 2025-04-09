@@ -30,9 +30,9 @@ namespace TowerDefence.Scripts
             if (waveController.totalSpawn < waveController.SpawnNumber)
             {
                 Random rn = new Random();
-                bool value = new Random().NextDouble() <= (10 / 100);
-                if(value)x = rn.Next(0, maxSpawn * 2);
-                if(!value)x = rn.Next(0, maxSpawn);
+                //bool value = new Random().NextDouble() <= (10 / 100);
+                //if(value)x = rn.Next(0, maxSpawn * 2);
+                x = rn.Next(0, maxSpawn);
                 for (int i = 0; i < x; i++)
                 {
                     int p = UnityEngine.Random.Range(0, circunferencia.spawnpoints.Count);

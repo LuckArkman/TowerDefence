@@ -326,7 +326,7 @@ MonoBehaviour:
   _wave: {fileID: 1547656555}
   _monsterNumber: {fileID: 502846123}
   _points: {fileID: 2044502570}
-  maxSpawn: 30
+  maxSpawn: 40
   circunferencia: {fileID: 558611595}
   waveController:
     totalSpawn: 0
@@ -2975,7 +2975,7 @@ Canvas:
   m_GameObject: {fileID: 281653320}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 330585545}
   m_PlaneDistance: 0.72
   m_PixelPerfect: 0
@@ -15178,7 +15178,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392063568}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 257c0db33d584840914cf736f5d8b1c1, type: 3}
   m_Name: 

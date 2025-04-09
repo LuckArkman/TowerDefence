@@ -23,7 +23,7 @@ namespace TowerDefence.Scripts
             {
                 if (z != null)
                 {
-                    if (Vector3.Distance(z.transform.position, transform.position) < 1f)
+                    if (Vector3.Distance(z.transform.position, transform.position) < 1.25f)
                     {
                         _enemys.Add(z);
                     }
