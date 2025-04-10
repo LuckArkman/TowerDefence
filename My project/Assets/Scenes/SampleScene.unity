@@ -326,6 +326,7 @@ MonoBehaviour:
   _wave: {fileID: 1547656555}
   _monsterNumber: {fileID: 502846123}
   _points: {fileID: 2044502570}
+  maxSpawn: 40
   circunferencia: {fileID: 558611595}
   waveController:
     totalSpawn: 0
@@ -1053,6 +1054,7 @@ GameObject:
   - component: {fileID: 102765392}
   - component: {fileID: 102765393}
   - component: {fileID: 102765394}
+  - component: {fileID: 102765395}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -1167,6 +1169,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 102765393}
   x: 0
+--- !u!114 &102765395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102765391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &120846198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,6 +2081,7 @@ GameObject:
   - component: {fileID: 236746151}
   - component: {fileID: 236746152}
   - component: {fileID: 236746153}
+  - component: {fileID: 236746154}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -2178,6 +2196,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 236746152}
   x: 0
+--- !u!114 &236746154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236746150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &241272067
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,7 +2975,7 @@ Canvas:
   m_GameObject: {fileID: 281653320}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 330585545}
   m_PlaneDistance: 0.72
   m_PixelPerfect: 0
@@ -3957,8 +3990,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.13207549, g: 0.09781062, b: 0.09781062, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 38614272e6ae3f04a8d6fc7aac14cc41, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6197,7 +6230,7 @@ MonoBehaviour:
   - {x: 14.992599, y: -0.47115895, z: 0}
   - {x: 15, y: 0.0000026226833, z: 0}
   diametro: 10
-  segmentos: 50
+  segmentos: 20
   espessura: 0.5
   objetoParaInstanciar: {fileID: 5573691878949617964, guid: 58e3d953e6b655140862c203a2a42b38, type: 3}
   instanciarApenasNaInicializacao: 1
@@ -7118,6 +7151,7 @@ GameObject:
   - component: {fileID: 599041246}
   - component: {fileID: 599041247}
   - component: {fileID: 599041248}
+  - component: {fileID: 599041249}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -7232,6 +7266,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 599041247}
   x: 0
+--- !u!114 &599041249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599041245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &609782888
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,6 +7553,7 @@ GameObject:
   - component: {fileID: 646606068}
   - component: {fileID: 646606069}
   - component: {fileID: 646606070}
+  - component: {fileID: 646606071}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -7618,6 +7668,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 646606069}
   x: 0
+--- !u!114 &646606071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646606067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &650848677
 GameObject:
   m_ObjectHideFlags: 0
@@ -10261,7 +10326,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.10946956, g: 0.5660378, b: 0.15486008, a: 1}
+  m_Color: {r: 0.3042453, g: 0.4056604, b: 0.31386223, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11444,6 +11509,7 @@ GameObject:
   - component: {fileID: 1104126712}
   - component: {fileID: 1104126713}
   - component: {fileID: 1104126714}
+  - component: {fileID: 1104126715}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -11558,6 +11624,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 1104126713}
   x: 0
+--- !u!114 &1104126715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104126711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &1108298669
 GameObject:
   m_ObjectHideFlags: 0
@@ -13294,6 +13375,7 @@ GameObject:
   - component: {fileID: 1257709324}
   - component: {fileID: 1257709325}
   - component: {fileID: 1257709326}
+  - component: {fileID: 1257709327}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -13408,6 +13490,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 1257709325}
   x: 0
+--- !u!114 &1257709327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257709323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &1266798145
 GameObject:
   m_ObjectHideFlags: 0
@@ -15057,6 +15154,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1392063568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1392063570}
+  - component: {fileID: 1392063569}
+  m_Layer: 0
+  m_Name: WallpaperManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1392063569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392063568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257c0db33d584840914cf736f5d8b1c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1392063570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392063568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6447604, y: 0.79235613, z: -0.0113420775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1396675813
 GameObject:
   m_ObjectHideFlags: 0
@@ -18583,6 +18724,7 @@ GameObject:
   - component: {fileID: 1767143102}
   - component: {fileID: 1767143103}
   - component: {fileID: 1767143104}
+  - component: {fileID: 1767143105}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -18697,6 +18839,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 1767143103}
   x: 0
+--- !u!114 &1767143105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767143101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &1774362239
 GameObject:
   m_ObjectHideFlags: 0
@@ -21329,7 +21486,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 53.130005, y: -10}
-  m_SizeDelta: {x: 66.26001, y: 20}
+  m_SizeDelta: {x: 66.26, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044502570
 MonoBehaviour:
@@ -21937,6 +22094,7 @@ GameObject:
   - component: {fileID: 2067763455}
   - component: {fileID: 2067763456}
   - component: {fileID: 2067763457}
+  - component: {fileID: 2067763458}
   m_Layer: 0
   m_Name: soldier
   m_TagString: Untagged
@@ -22051,6 +22209,21 @@ MonoBehaviour:
     action: 0
   _spriteRenderer: {fileID: 2067763456}
   x: 0
+--- !u!114 &2067763458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067763454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d47faea9e584ab1bb17a170b020c46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  bullet: {fileID: 4423838525898178546, guid: 966bf55b2dd3e89439f52b201f0155a8, type: 3}
+  _enemys: []
 --- !u!1 &2071087680
 GameObject:
   m_ObjectHideFlags: 0
@@ -22438,7 +22611,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -382.9899, y: 0}
+  m_AnchoredPosition: {x: -382.9898, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2085707606
@@ -23230,3 +23403,4 @@ SceneRoots:
   - {fileID: 558611598}
   - {fileID: 32453026}
   - {fileID: 281653324}
+  - {fileID: 1392063570}

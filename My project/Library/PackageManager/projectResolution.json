@@ -19,6 +19,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.2d.tilemap@1.0.0": {
+      "name": "com.unity.2d.tilemap",
+      "displayName": "2D Tilemap Editor",
+      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.2d.tilemap@91afae292a4e",
+      "fingerprint": "91afae292a4e9c80c9c83328346b52d1bb443abe",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.ai.navigation@2.0.6": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",

@@ -11,19 +11,19 @@ J:\.Editor\6000.0.42f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-J:/TowerDefence/My project
+H:/TowerDefence/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51085
+53924
 -job-worker-count
 7
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: J:/TowerDefence/My project
-J:/TowerDefence/My project
+Successfully changed project path to: H:/TowerDefence/My project
+H:/TowerDefence/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,20 +59,18 @@ J:/TowerDefence/My project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11216]  Target information:
+Player connection [19244]  Target information:
 
-Player connection [11216]  * "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 1072513820 [EditorId] 1072513820 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19244]  * "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 3219953148 [EditorId] 3219953148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11216]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1072513820 [EditorId] 1072513820 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19244]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3219953148 [EditorId] 3219953148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11216]  * "[IP] 172.22.16.1 [Port] 0 [Flags] 2 [Guid] 1072513820 [EditorId] 1072513820 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19244]  * "[IP] 172.24.96.1 [Port] 0 [Flags] 2 [Guid] 3219953148 [EditorId] 3219953148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11216]  * "[IP] 172.31.144.1 [Port] 0 [Flags] 2 [Guid] 1072513820 [EditorId] 1072513820 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19244]  * "[IP] 172.18.16.1 [Port] 0 [Flags] 2 [Guid] 3219953148 [EditorId] 3219953148 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11216]  * "[IP] 172.28.64.1 [Port] 0 [Flags] 2 [Guid] 1072513820 [EditorId] 1072513820 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [11216] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19244] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,11 +82,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.42f1 (feb9a7235030)
 [Subsystems] Discovering subsystems at path J:/.Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path J:/TowerDefence/My project/Assets
+[Subsystems] Discovering subsystems at path H:/TowerDefence/My project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -101,64 +99,48 @@ Initialize mono
 Mono path[0] = 'J:/.Editor/6000.0.42f1/Editor/Data/Managed'
 Mono path[1] = 'J:/.Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'J:/.Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: J:/.Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: J:/.Editor/6000.0.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: J:/.Editor/6000.0.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.006134 seconds.
-- Loaded All Assemblies, in  0.693 seconds
+Registered in 0.007767 seconds.
+- Loaded All Assemblies, in  1.002 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Win32Exception: A operação foi concluída com êxito.
-  at System.Diagnostics.Process.Kill () [0x00018] in <fba24a13802445559d6435422e829b75>:0 
-  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Kill()
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00174] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs:326 
-  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00049] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:164 
-  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00087] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:106 
-  at UnityEditor.Android.TargetExtension.OnLoad () [0x000af] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:67 
-  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x000ba] in <aa1f86fad227490683863fb0d0f47a12>:0 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules()
-
-(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs Line: 326)
-
+Android Extension - Scanning For ADB Devices 830 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.909 seconds
-Domain Reload Profiling: 1602ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  2.000 seconds
+Domain Reload Profiling: 3002ms
+	BeginReloadAssembly (328ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (276ms)
-		LoadAssemblies (239ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (328ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (270ms)
-			TypeCache.Refresh (268ms)
-				TypeCache.ScanAssembly (249ms)
+		AnalyzeDomain (411ms)
+			TypeCache.Refresh (408ms)
+				TypeCache.ScanAssembly (373ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (910ms)
+	FinalizeReload (2001ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (822ms)
+		SetupLoadedEditorAssemblies (1881ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (438ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (186ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			InitializePlatformSupportModulesInManaged (1049ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -167,91 +149,583 @@ Domain Reload Profiling: 1602ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.166 seconds
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.851 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.188 seconds
-Domain Reload Profiling: 2352ms
-	BeginReloadAssembly (268ms)
+- Finished resetting the current domain, in  1.741 seconds
+Domain Reload Profiling: 3588ms
+	BeginReloadAssembly (494ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (755ms)
-		LoadAssemblies (509ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (1149ms)
+		LoadAssemblies (883ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (406ms)
-			TypeCache.Refresh (295ms)
-				TypeCache.ScanAssembly (270ms)
-			BuildScriptInfoCaches (84ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1189ms)
+		AnalyzeDomain (552ms)
+			TypeCache.Refresh (398ms)
+				TypeCache.ScanAssembly (361ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1742ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (918ms)
+		SetupLoadedEditorAssemblies (1306ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (167ms)
-			ProcessInitializeOnLoadAttributes (591ms)
-			ProcessInitializeOnLoadMethodAttributes (125ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (286ms)
+			ProcessInitializeOnLoadAttributes (741ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6019 unused Assets / (4.2 MB). Loaded Objects now: 6727.
-Memory consumption went from 162.3 MB to 158.1 MB.
-Total: 14.025500 ms (FindLiveObjects: 1.276400 ms CreateObjectMapping: 1.178100 ms MarkObjects: 8.305300 ms  DeleteObjects: 3.263500 ms)
+Unloading 6130 unused Assets / (4.9 MB). Loaded Objects now: 6842.
+Memory consumption went from 163.1 MB to 158.1 MB.
+Total: 23.959300 ms (FindLiveObjects: 1.356300 ms CreateObjectMapping: 1.930200 ms MarkObjects: 14.244700 ms  DeleteObjects: 6.425700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 97057.322476 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(8f54068081c9f294cb588ae25872c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(8f54068081c9f294cb588ae25872c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e5e75bcba0de7f194e4e51f868049b6') in 0.0358441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02e5b530d5b44d961131ffba578cd945') in 0.0123834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.004499 seconds
+  Time since last request: 5210.693400 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - NIGHT.png
+  artifactKey: Guid(3d20cc7ae47cf23439f41dd5837d66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - NIGHT.png using Guid(3d20cc7ae47cf23439f41dd5837d66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb9c50d2cea5390528e11ff9d283e492') in 0.1391163 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.855286 seconds.
-  path: Assets/TowerDefence/Prefabs/Singleton.prefab
-  artifactKey: Guid(2f6a24b91b17477489264f36dcc86ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerDefence/Prefabs/Singleton.prefab using Guid(2f6a24b91b17477489264f36dcc86ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcb219202accb9c10fd347c09e1cc4c6') in 0.0316232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000030 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 1 - DAY.png
+  artifactKey: Guid(f2dd7af0c83fbb84381e0323075a3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 1 - DAY.png using Guid(f2dd7af0c83fbb84381e0323075a3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2916c3e0e263550fefc350f967a90339') in 0.0383247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 3 - NIGHT.png
+  artifactKey: Guid(5a4ad1679eeae9b41a96e705d3b4c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 3 - NIGHT.png using Guid(5a4ad1679eeae9b41a96e705d3b4c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '789030a2198762d3b7ffd7d1e7a3c864') in 0.0275471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 1 - NIGHT.png
+  artifactKey: Guid(326ba98b425f63949b6ff733bab0d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 1 - NIGHT.png using Guid(326ba98b425f63949b6ff733bab0d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd2d9702fe5a3f566f3418d3766a02b8') in 0.0283174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/PIT - NIGHT.png
+  artifactKey: Guid(ccff1140927121040b7fcf18eb150218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/PIT - NIGHT.png using Guid(ccff1140927121040b7fcf18eb150218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af4abd48917dcc94375846a84e1e3b60') in 0.0307212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - DAY.png
+  artifactKey: Guid(a6b7253529c990143a77e130872c86c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - DAY.png using Guid(a6b7253529c990143a77e130872c86c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c4fd01f47ed4f62dd6d9099d705eb72') in 0.0260799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.410799 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/CHURCH - DAY.png
+  artifactKey: Guid(38614272e6ae3f04a8d6fc7aac14cc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/CHURCH - DAY.png using Guid(38614272e6ae3f04a8d6fc7aac14cc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04be8c7e0ea64acc9c34d5189deb199d') in 0.0313946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/TowerDefence/Prefabs/Zombie.prefab
-  artifactKey: Guid(f1d4d2891c26a724eb4ebaaac0fae3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerDefence/Prefabs/Zombie.prefab using Guid(f1d4d2891c26a724eb4ebaaac0fae3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf94ad93ba4548ab178a530aca2a3d54') in 1.1272058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - NIGHT.png
+  artifactKey: Guid(3adc2b1a662009f40a1adbc72e0e9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - NIGHT.png using Guid(3adc2b1a662009f40a1adbc72e0e9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f42f4a82c05b5a837a2b7cc09af09d2') in 0.0266074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 1 - NIGHT 1.png
+  artifactKey: Guid(55618e8a626c597409f0f91e7e6119a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 1 - NIGHT 1.png using Guid(55618e8a626c597409f0f91e7e6119a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c4074a6114ef05f5dd30c961ae1cae9') in 0.0281199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 1 - NIGHT.png
+  artifactKey: Guid(0eed82075b4b79742803a9dab69d29b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 1 - NIGHT.png using Guid(0eed82075b4b79742803a9dab69d29b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '623809ef34d2cdb2379f99b8b4011054') in 0.0286985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 4 - DAY.png
+  artifactKey: Guid(d0727f99266e3654f87b8390892ddd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 4 - DAY.png using Guid(d0727f99266e3654f87b8390892ddd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '205cc891c51ab203a1e0be583bcc1cd4') in 0.0280234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 3 - DAY.png
+  artifactKey: Guid(0e5a6202f30f9a94ba33a79eacbd366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 3 - DAY.png using Guid(0e5a6202f30f9a94ba33a79eacbd366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68c36fd7a48261055fb1c43575e1112b') in 0.0260933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 3 - DAY.png
+  artifactKey: Guid(59d180615e5d0744faea8e5addf5ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 3 - DAY.png using Guid(59d180615e5d0744faea8e5addf5ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05b598a2346e80c2ec5837601798d367') in 0.0341109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 2 - DAY.png
+  artifactKey: Guid(295ca7a75e63a1b45a86cbb0124ff5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 2 - DAY.png using Guid(295ca7a75e63a1b45a86cbb0124ff5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f50003ab88d46ebf9f26a91476c5b0b') in 0.0404476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.903559 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/HOUSE 2 - DAY.png
+  artifactKey: Guid(7d95729531ca2ac44a2a7421679d28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/HOUSE 2 - DAY.png using Guid(7d95729531ca2ac44a2a7421679d28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee1809723b64e713c6fbc5c2fbd99066') in 0.029522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/STAIRS - NIGHT.png
+  artifactKey: Guid(bf48cecd5978b77439852ed149e7cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/STAIRS - NIGHT.png using Guid(bf48cecd5978b77439852ed149e7cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88c7fae2c80c28ab9f9c6e2ad49b1995') in 0.0304542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178917 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 - NIGHT.png
+  artifactKey: Guid(da62ef539456737419bc8d619c421e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 - NIGHT.png using Guid(da62ef539456737419bc8d619c421e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91426e48e9c1cc3e45b978dba807c198') in 0.0313655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 4 - NIGHT 1.png
+  artifactKey: Guid(a24bbbe633d395842845e1f710526d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 4 - NIGHT 1.png using Guid(a24bbbe633d395842845e1f710526d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40d116265ca948494b5c44f3ff2f5da2') in 0.0317386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 5 - NIGHT.png
+  artifactKey: Guid(b388f6567f5054642a12040a1b0d1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 5 - NIGHT.png using Guid(b388f6567f5054642a12040a1b0d1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a31d69e984a84313c6c592c62d603eec') in 0.0228893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372157 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 3 - DAY.png
+  artifactKey: Guid(2406e16b521d93b4da33f3d656bedd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 3 - DAY.png using Guid(2406e16b521d93b4da33f3d656bedd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67625940c5ac55cb7f8e1a14a737bd37') in 0.0241766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - DAY 1.png
+  artifactKey: Guid(faa902124f20e5e49bfafd79ba79b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - DAY 1.png using Guid(faa902124f20e5e49bfafd79ba79b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbfb85289a36c4c411df080ac3d34faf') in 0.0099002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 4 - DAY 1.png
+  artifactKey: Guid(519f4c2487fb13e44845474c50f9561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 4 - DAY 1.png using Guid(519f4c2487fb13e44845474c50f9561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2acb75f81ea13269b00bb2e7b3433134') in 0.0315634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 3 - NIGHT.png
+  artifactKey: Guid(93a8acd1a04084049ac8bd371b9f65d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 3 - NIGHT.png using Guid(93a8acd1a04084049ac8bd371b9f65d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d05af1bb94e75fd273d921416fb97dc') in 0.0433104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 5 - DAY.png
+  artifactKey: Guid(5efdc3571a56dc744ae690dffe023be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 5 - DAY.png using Guid(5efdc3571a56dc744ae690dffe023be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2c2293817a16a7da4d33338e6f1480b') in 0.0338284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.945679 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/BRIDGE - NIGHT.png
+  artifactKey: Guid(1ac1340f3a995d742a423518e9576112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/BRIDGE - NIGHT.png using Guid(1ac1340f3a995d742a423518e9576112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa7543eed2046c0a2161fec1ad1a92b4') in 0.0287065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 4 - DAY 1.png
+  artifactKey: Guid(54f96614104aa724fa43bae82a731762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 4 - DAY 1.png using Guid(54f96614104aa724fa43bae82a731762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ae27a4c32d670c894e2eaf2a86f40f9') in 0.0098615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS TILE - DAY.png
+  artifactKey: Guid(5ce12e511a2cafa4282c8da97add999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS TILE - DAY.png using Guid(5ce12e511a2cafa4282c8da97add999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53feb10f6790d8b253c2ee04b77ea5f8') in 0.009723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 3 - NIGHT 1.png
+  artifactKey: Guid(0464fd86d13e6c1429b9390b4460e3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 3 - NIGHT 1.png using Guid(0464fd86d13e6c1429b9390b4460e3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8877f5da56a8a139667ad0859bac283') in 0.0098232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 2 - DAY.png
+  artifactKey: Guid(295ca7a75e63a1b45a86cbb0124ff5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 2 - DAY.png using Guid(295ca7a75e63a1b45a86cbb0124ff5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9cfdf263d17c4ab11e3c561ede24a97') in 0.010704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - NIGHT.png
+  artifactKey: Guid(3adc2b1a662009f40a1adbc72e0e9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - NIGHT.png using Guid(3adc2b1a662009f40a1adbc72e0e9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eae537552ed1e4b3ad88e293c1dc1af7') in 0.009353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND TILE - DAY.png
+  artifactKey: Guid(7cb12df412dd71345a77a34968c34ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND TILE - DAY.png using Guid(7cb12df412dd71345a77a34968c34ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8578741960c31719dd1531f2c1482bb9') in 0.0213692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS TILE - NIGHT.png
+  artifactKey: Guid(9e5ed6fe2b96c36449f337d69c13ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS TILE - NIGHT.png using Guid(9e5ed6fe2b96c36449f337d69c13ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e3507d57f01a2ffbb34b8364988ab1') in 0.0109063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/CHURCH - NIGHT.png
+  artifactKey: Guid(60c0955d109e2664384b6fc5dd5f4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/CHURCH - NIGHT.png using Guid(60c0955d109e2664384b6fc5dd5f4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab35cbae324a4794e569db200f40dba1') in 0.0106297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 2 - DAY.png
+  artifactKey: Guid(d3109fdaa0060aa43a8c0dfe9ab39230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 2 - DAY.png using Guid(d3109fdaa0060aa43a8c0dfe9ab39230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '462e76d8e306aa4284c8b1e4169fb625') in 0.0089318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - DAY 1.png
+  artifactKey: Guid(404be490a7089be4eb7ee088c4162adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - DAY 1.png using Guid(404be490a7089be4eb7ee088c4162adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc802c68360f1b3f79f08a1f748ad1f7') in 0.0095121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 3 - NIGHT.png
+  artifactKey: Guid(c9c7908bd88c4d84b999889ade6b260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 3 - NIGHT.png using Guid(c9c7908bd88c4d84b999889ade6b260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e607a8d0ccf834ace1b43d44a5f1e6') in 0.0087879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.566538 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/HOUSE 2 - DAY.png
+  artifactKey: Guid(7d95729531ca2ac44a2a7421679d28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/HOUSE 2 - DAY.png using Guid(7d95729531ca2ac44a2a7421679d28f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c5a1c6055663ecf05f01a3b2056dbe7') in 0.0312029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/PIT - NIGHT.png
+  artifactKey: Guid(ccff1140927121040b7fcf18eb150218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/PIT - NIGHT.png using Guid(ccff1140927121040b7fcf18eb150218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '960a1fbc7723575496c5f5a0e71fc7fe') in 0.0246017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/straw-house.png
+  artifactKey: Guid(21e65559107eeb14590b601e0e668ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/straw-house.png using Guid(21e65559107eeb14590b601e0e668ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b234eb4d5fcdc4349d74c25fa10190da') in 0.1305818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171537 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 - DAY 1.png
+  artifactKey: Guid(c2cca7e7ddf583a43b0869a968145b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 - DAY 1.png using Guid(c2cca7e7ddf583a43b0869a968145b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7550aa1e6a3bb1b2e39b57fd9b25d7b') in 0.0256425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 CURVES - DAY.png
+  artifactKey: Guid(ebdd935434ac1ff409af8856ec28939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 CURVES - DAY.png using Guid(ebdd935434ac1ff409af8856ec28939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf6f0695e838d1c1fdbfa6d825f09cb') in 0.0110126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 4 CURVES - DAY.png
+  artifactKey: Guid(d9989372f8d2e36429215c4e8113388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 4 CURVES - DAY.png using Guid(d9989372f8d2e36429215c4e8113388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89f4bb2d9fb15d7f741f15cc44dc9d3e') in 0.0271481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 5 - NIGHT.png
+  artifactKey: Guid(b388f6567f5054642a12040a1b0d1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 5 - NIGHT.png using Guid(b388f6567f5054642a12040a1b0d1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6abdf2ddb5df3a071d64d4196fd1702') in 0.0278092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 3 - DAY.png
+  artifactKey: Guid(2406e16b521d93b4da33f3d656bedd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 3 - DAY.png using Guid(2406e16b521d93b4da33f3d656bedd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5993895890b35edeb262218fe5158250') in 0.0278402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 2 - DAY.png
+  artifactKey: Guid(2794633cf2b4dd942a25e3628992f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 2 - DAY.png using Guid(2794633cf2b4dd942a25e3628992f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '546af4ff5481057a86eff5d342822ebc') in 0.0248832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.329398 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 4 CURVES - DAY 1.png
+  artifactKey: Guid(509a4ea1c146f7542ac3ee3b3eaa925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 4 CURVES - DAY 1.png using Guid(509a4ea1c146f7542ac3ee3b3eaa925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cae9b69e972dc1bd52d9279a5867c821') in 0.0240006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 5 - NIGHT.png
+  artifactKey: Guid(b388f6567f5054642a12040a1b0d1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 5 - NIGHT.png using Guid(b388f6567f5054642a12040a1b0d1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f79d89c4d6bd9bd290143fff60a1c1d') in 0.025665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 1 - NIGHT.png
+  artifactKey: Guid(27be2133e92495a4a916cc847ff55311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TREE 1 - NIGHT.png using Guid(27be2133e92495a4a916cc847ff55311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1bc670d76f8fa39dc236dea8d4024db') in 0.0426604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.715990 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 - DAY.png
+  artifactKey: Guid(c7abc848be3c8f2439236809036c71f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 - DAY.png using Guid(c7abc848be3c8f2439236809036c71f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f51cb994241054786394f888a30b0e66') in 0.0451213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 CURVES - NIGHT.png
+  artifactKey: Guid(cc2d484255536d24ab4f007f271bc36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/TERRAIN SET 3 CURVES - NIGHT.png using Guid(cc2d484255536d24ab4f007f271bc36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03ad23a952b264feb8fdb7f5514d4b36') in 0.0243891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.215269 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/STAIRS - NIGHT.png
+  artifactKey: Guid(bf48cecd5978b77439852ed149e7cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/STAIRS - NIGHT.png using Guid(bf48cecd5978b77439852ed149e7cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ded6e36fd4582e3cbdecf88d30a7b009') in 0.0320794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.426838 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/HOUSE 1 - NIGHT.png
+  artifactKey: Guid(c35b0d027a8af6449b482c13562fadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/HOUSE 1 - NIGHT.png using Guid(c35b0d027a8af6449b482c13562fadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd02a0323a030e74dfa9abedad64e0289') in 0.0687089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/PIT - NIGHT 1.png
+  artifactKey: Guid(426ecabe08536c7489bc5f7717c46268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/PIT - NIGHT 1.png using Guid(426ecabe08536c7489bc5f7717c46268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c98a89ab9ad6f2a7d74725ef606d2c55') in 0.0306738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218193 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 4 - DAY 1.png
+  artifactKey: Guid(54f96614104aa724fa43bae82a731762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 4 - DAY 1.png using Guid(54f96614104aa724fa43bae82a731762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a5f2fb6ece4dc527e3914877cc8193b') in 0.0483584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 5 - DAY.png
+  artifactKey: Guid(fbf64ea8761b21e4b8193832943f1ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 5 - DAY.png using Guid(fbf64ea8761b21e4b8193832943f1ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab5f77d6a5bc120b5168cb14d89eb36') in 0.0240325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.477001 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - DAY.png
+  artifactKey: Guid(550944ac49e358f4fafe7b686530748a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - DAY.png using Guid(550944ac49e358f4fafe7b686530748a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ef2991ba6573bc95f28e1320b5d54cf') in 0.0224232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - NIGHT.png
+  artifactKey: Guid(3adc2b1a662009f40a1adbc72e0e9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GROUND DETAIL 1 - NIGHT.png using Guid(3adc2b1a662009f40a1adbc72e0e9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd5d2c5fd9ca27df30adc5509449af8') in 0.0230947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.906810 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - DAY 1.png
+  artifactKey: Guid(faa902124f20e5e49bfafd79ba79b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 1 - DAY 1.png using Guid(faa902124f20e5e49bfafd79ba79b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f77230ee7079c5169d8c40029e3d8d25') in 0.0481067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 4 - NIGHT.png
+  artifactKey: Guid(f4638b40b1fa58345ac6360442a23443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 4 - NIGHT.png using Guid(f4638b40b1fa58345ac6360442a23443) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd37c5209cfa6942c77290c7ce65247dd') in 0.026442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 5 - NIGHT.png
+  artifactKey: Guid(4b929bd587df9be4294474a5c1cfa734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/WATER DETAIL 5 - NIGHT.png using Guid(4b929bd587df9be4294474a5c1cfa734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1500d941912779e910cc6c574f50f8cb') in 0.02456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.137162 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 4 - NIGHT 1.png
+  artifactKey: Guid(18b51a001435da6428b7983747130016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 4 - NIGHT 1.png using Guid(18b51a001435da6428b7983747130016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a614cdee64cd7c78ce371cce74376a47') in 0.0218863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS TILE - DAY.png
+  artifactKey: Guid(5ce12e511a2cafa4282c8da97add999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS TILE - DAY.png using Guid(5ce12e511a2cafa4282c8da97add999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5cf6e473093e6a2a0d8d5e0263c00e5') in 0.0252988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255941 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 1 - NIGHT.png
+  artifactKey: Guid(326ba98b425f63949b6ff733bab0d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 1 - NIGHT.png using Guid(326ba98b425f63949b6ff733bab0d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f03652d41a5a3d4bef1380b9a220d36') in 0.0475879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 1 - DAY.png
+  artifactKey: Guid(80597339fb166d848b0d68f07aebbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/FENCE 1 - DAY.png using Guid(80597339fb166d848b0d68f07aebbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4fee8c1b57cb260854102ea7bba8bcf') in 0.0214345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/CHURCH - DAY.png
+  artifactKey: Guid(38614272e6ae3f04a8d6fc7aac14cc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/CHURCH - DAY.png using Guid(38614272e6ae3f04a8d6fc7aac14cc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '275d9146edc7eca4a985dd15573e88a0') in 0.0265847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 3 - DAY.png
+  artifactKey: Guid(59d180615e5d0744faea8e5addf5ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunnyLand House Props Expansion Pack/Props PNG/GRASS DETAIL 3 - DAY.png using Guid(59d180615e5d0744faea8e5addf5ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb128c9a23a09fadb31994ae9d8e806f') in 0.0237562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
