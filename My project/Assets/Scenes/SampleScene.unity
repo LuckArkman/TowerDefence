@@ -327,7 +327,7 @@ MonoBehaviour:
   _monsterNumber: {fileID: 502846123}
   _points: {fileID: 2044502570}
   _level: {fileID: 0}
-  maxSpawn: 40
+  maxSpawn: 30
   circunferencia: {fileID: 558611595}
   waveController:
     totalSpawn: 0

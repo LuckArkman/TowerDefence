@@ -15,7 +15,7 @@ H:/TowerDefence/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50640
+64332
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,18 +59,18 @@ H:/TowerDefence/My project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [964]  Target information:
+Player connection [11948]  Target information:
 
-Player connection [964]  * "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 450244920 [EditorId] 450244920 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11948]  * "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 2894257622 [EditorId] 2894257622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [964]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 450244920 [EditorId] 450244920 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11948]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2894257622 [EditorId] 2894257622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [964]  * "[IP] 172.20.80.1 [Port] 0 [Flags] 2 [Guid] 450244920 [EditorId] 450244920 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11948]  * "[IP] 172.20.80.1 [Port] 0 [Flags] 2 [Guid] 2894257622 [EditorId] 2894257622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [964]  * "[IP] 172.27.208.1 [Port] 0 [Flags] 2 [Guid] 450244920 [EditorId] 450244920 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11948]  * "[IP] 172.27.208.1 [Port] 0 [Flags] 2 [Guid] 2894257622 [EditorId] 2894257622 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOCP56G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [964] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [964] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11948] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11948] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.42f1 (feb9a7235030)
 [Subsystems] Discovering subsystems at path J:/.Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
@@ -99,48 +99,48 @@ Initialize mono
 Mono path[0] = 'J:/.Editor/6000.0.42f1/Editor/Data/Managed'
 Mono path[1] = 'J:/.Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'J:/.Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: J:/.Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: J:/.Editor/6000.0.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: J:/.Editor/6000.0.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004798 seconds.
-- Loaded All Assemblies, in  0.646 seconds
+Registered in 0.005121 seconds.
+- Loaded All Assemblies, in  0.661 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 386 ms
+Android Extension - Scanning For ADB Devices 464 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.006 seconds
-Domain Reload Profiling: 1651ms
-	BeginReloadAssembly (211ms)
+- Finished resetting the current domain, in  1.098 seconds
+Domain Reload Profiling: 1759ms
+	BeginReloadAssembly (223ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (212ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (223ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (256ms)
-			TypeCache.Refresh (254ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (259ms)
 				TypeCache.ScanAssembly (235ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1007ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1099ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (936ms)
+		SetupLoadedEditorAssemblies (1026ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (530ms)
+			InitializePlatformSupportModulesInManaged (608ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (206ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,492 +149,247 @@ Domain Reload Profiling: 1651ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.230 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.327 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.209 seconds
-Domain Reload Profiling: 2437ms
-	BeginReloadAssembly (274ms)
+- Finished resetting the current domain, in  2.016 seconds
+Domain Reload Profiling: 3341ms
+	BeginReloadAssembly (275ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
+		CreateAndSetChildDomain (48ms)
 	RebuildCommonClasses (62ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (808ms)
-		LoadAssemblies (563ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (905ms)
+		LoadAssemblies (632ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (412ms)
-			TypeCache.Refresh (305ms)
-				TypeCache.ScanAssembly (279ms)
-			BuildScriptInfoCaches (84ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1210ms)
+		AnalyzeDomain (440ms)
+			TypeCache.Refresh (311ms)
+				TypeCache.ScanAssembly (285ms)
+			BuildScriptInfoCaches (97ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2017ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (946ms)
+		SetupLoadedEditorAssemblies (1189ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (174ms)
-			ProcessInitializeOnLoadAttributes (596ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (372ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6130 unused Assets / (4.5 MB). Loaded Objects now: 6842.
-Memory consumption went from 163.1 MB to 158.6 MB.
-Total: 17.413600 ms (FindLiveObjects: 1.418300 ms CreateObjectMapping: 1.879700 ms MarkObjects: 10.771900 ms  DeleteObjects: 3.342000 ms)
+Unloading 6155 unused Assets / (4.5 MB). Loaded Objects now: 6867.
+Memory consumption went from 163.2 MB to 158.7 MB.
+Total: 13.899100 ms (FindLiveObjects: 1.206000 ms CreateObjectMapping: 1.201000 ms MarkObjects: 8.246000 ms  DeleteObjects: 3.244300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1921.624886 seconds.
-  path: Assets/TowerDefence/Sprits/Character-and-Zombie_0.controller
-  artifactKey: Guid(b0432d2aa0fa8ef42a52d0ea9de043a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerDefence/Sprits/Character-and-Zombie_0.controller using Guid(b0432d2aa0fa8ef42a52d0ea9de043a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85261735f40d55e2ad337cb042d49c8a') in 0.0358854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.133 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.247 seconds
-Domain Reload Profiling: 2383ms
-	BeginReloadAssembly (297ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (711ms)
-		LoadAssemblies (554ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (309ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (270ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1248ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (898ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (193ms)
-			ProcessInitializeOnLoadAttributes (573ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6128 unused Assets / (3.9 MB). Loaded Objects now: 6861.
-Memory consumption went from 144.1 MB to 140.2 MB.
-Total: 14.099200 ms (FindLiveObjects: 1.094900 ms CreateObjectMapping: 0.945000 ms MarkObjects: 7.986100 ms  DeleteObjects: 4.071400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 813.978790 seconds.
-  path: Assets/UI pack/Icons/Heart.png
-  artifactKey: Guid(54af60d343d3e3b458ad7e97dd60dd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Icons/Heart.png using Guid(54af60d343d3e3b458ad7e97dd60dd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3888fb745216decbcc79ad07ba6f623e') in 0.1811514 seconds
+  Time since last request: 36434.480685 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Red Circle Outline Button.png
+  artifactKey: Guid(9933a3b8f6b6243229059924b14bc48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Red Circle Outline Button.png using Guid(9933a3b8f6b6243229059924b14bc48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'defcb1b533cbdecb6b7038c9301e3f8b') in 0.2052353 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UI pack/Button/Orange gradient.png
-  artifactKey: Guid(1258ac417dd158a48b05eeedb739c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Button/Orange gradient.png using Guid(1258ac417dd158a48b05eeedb739c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8268129c43bac8cd644d829dd2735a55') in 0.0250027 seconds
+  Time since last request: 41.671913 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Blue Circle Button.png
+  artifactKey: Guid(0d1cc1614df9a42d8aec0469b1e60a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Blue Circle Button.png using Guid(0d1cc1614df9a42d8aec0469b1e60a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c244408500232733bf639073bf08062') in 0.0229766 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UI pack/Button/Red outline gradient.png
-  artifactKey: Guid(d856e7dd0e8555f4fb29db6352b3a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Button/Red outline gradient.png using Guid(d856e7dd0e8555f4fb29db6352b3a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '012069246fdeda9055a0f9fe0e69f76b') in 0.0343014 seconds
+  Time since last request: 0.024942 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Input Fields/Blue Input Field.png
+  artifactKey: Guid(631806e346db9455e9f14819df36b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Input Fields/Blue Input Field.png using Guid(631806e346db9455e9f14819df36b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23cf55b3c7413fa2d53a8ba120cb76f5') in 0.0220566 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.235502 seconds.
-  path: Assets/UI pack/Circles/Circle blue full.png
-  artifactKey: Guid(e019cd8c6a958a74bb226a0fd85030d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Circles/Circle blue full.png using Guid(e019cd8c6a958a74bb226a0fd85030d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32b2ee0098e3ffdd1a0d68c670de19a4') in 0.0552489 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Blue Round Inactive Tab.png
+  artifactKey: Guid(f842610c9b48c40c18c82ecc44966062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Blue Round Inactive Tab.png using Guid(f842610c9b48c40c18c82ecc44966062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0793ac1407b830b3da1296e71cf70dbe') in 0.023792 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UI pack/Circles/Circle green.png
-  artifactKey: Guid(07d868e0fd2a23942bd04c6dffb76ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Circles/Circle green.png using Guid(07d868e0fd2a23942bd04c6dffb76ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21490da4a2729a31ca5fd4535584cb11') in 0.0411968 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Blue Round Tab.png
+  artifactKey: Guid(e6288fee0c38640ec9bae245aba978fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Blue Round Tab.png using Guid(e6288fee0c38640ec9bae245aba978fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a4511d11e9d9be4bf2c2f02240c9a5') in 0.0241657 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UI pack/Circles/Circle red full.png
-  artifactKey: Guid(64f5428e485e0204db94d129eab4847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Circles/Circle red full.png using Guid(64f5428e485e0204db94d129eab4847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea12df1588011b7e6547a62428dd640c') in 0.0319142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UI pack/Circles/Circle green full.png
-  artifactKey: Guid(ce8637774427361428d758c6c49d138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Circles/Circle green full.png using Guid(ce8637774427361428d758c6c49d138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deb1738f2c988b758851e3891cb638b5') in 0.032135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.612469 seconds.
-  path: Assets/UI pack/Button/Blue outline gradient.png
-  artifactKey: Guid(7179ab86b28b8184e8b74e3a0b7fa821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Button/Blue outline gradient.png using Guid(7179ab86b28b8184e8b74e3a0b7fa821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50887532aa9f25a15fc99785d7cd9de0') in 0.0277598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UI pack/Icons/bolt.png
-  artifactKey: Guid(bfd7f2d02bcb369458540a3a6e2cea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI pack/Icons/bolt.png using Guid(bfd7f2d02bcb369458540a3a6e2cea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aade2c56da7f33bcd09db9b7fe5bb4ab') in 0.0460948 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.101 seconds
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.156 seconds
-Domain Reload Profiling: 2258ms
-	BeginReloadAssembly (293ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (685ms)
-		LoadAssemblies (545ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (293ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (257ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1156ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (845ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (177ms)
-			ProcessInitializeOnLoadAttributes (541ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6134 unused Assets / (4.4 MB). Loaded Objects now: 6874.
-Memory consumption went from 146.0 MB to 141.5 MB.
-Total: 11.837900 ms (FindLiveObjects: 1.049300 ms CreateObjectMapping: 0.523700 ms MarkObjects: 7.177900 ms  DeleteObjects: 3.085400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.116 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.159 seconds
-Domain Reload Profiling: 2276ms
-	BeginReloadAssembly (297ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (695ms)
-		LoadAssemblies (548ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (304ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (267ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1159ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (848ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (177ms)
-			ProcessInitializeOnLoadAttributes (544ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6150 unused Assets / (4.4 MB). Loaded Objects now: 6892.
-Memory consumption went from 146.2 MB to 141.8 MB.
-Total: 13.458500 ms (FindLiveObjects: 1.265200 ms CreateObjectMapping: 1.317200 ms MarkObjects: 7.433300 ms  DeleteObjects: 3.441400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 125.607823 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/White Checkerboard.png
-  artifactKey: Guid(71f179552933f4aff84739963a220f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/White Checkerboard.png using Guid(71f179552933f4aff84739963a220f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba92d3641676e142dae608d64e7f118') in 0.1564291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Tabs/White Round Inactive Tab.png
-  artifactKey: Guid(291f7479bbc4e49769a1fad29d9dab9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Tabs/White Round Inactive Tab.png using Guid(291f7479bbc4e49769a1fad29d9dab9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '031534b4bfff9eab7891cc734709956f') in 0.0238874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Round Button.png
-  artifactKey: Guid(f2d1db67f26a74f13bb10147155953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Round Button.png using Guid(f2d1db67f26a74f13bb10147155953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '139c072b7711b656a1e6c7ed647d44bf') in 0.0411888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Square Switch Off.png
-  artifactKey: Guid(db83a0473cb7d4d2583440567e3d0ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Square Switch Off.png using Guid(db83a0473cb7d4d2583440567e3d0ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62b033d2c64addb98c15c4278f99ac46') in 0.0269498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Rounded Button.png
-  artifactKey: Guid(1cfdba0090d5d4c7d9701ae3ff1699ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Rounded Button.png using Guid(1cfdba0090d5d4c7d9701ae3ff1699ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cee981e41e302b3c404f225036a6ff40') in 0.0244719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White House.png
-  artifactKey: Guid(05b85860d5cf649478cdd1a1ec3c95a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White House.png using Guid(05b85860d5cf649478cdd1a1ec3c95a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f7f01974cdf5e25c121c0e61a50b8f8') in 0.0252151 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Windows/Blue Rounded Window.png
+  artifactKey: Guid(7974d998bb2ae4cd9b79b452c60029f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Windows/Blue Rounded Window.png using Guid(7974d998bb2ae4cd9b79b452c60029f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5e0d615ea5aa06c3d121ab8613584a6') in 0.0286888 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Windows/White Rounded Window.png
-  artifactKey: Guid(1612ec7a0b26245809266786171f4559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Windows/White Rounded Window.png using Guid(1612ec7a0b26245809266786171f4559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c377b470b417973d764681ff1a1838') in 0.0382077 seconds
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Blue Rounded Switch On.png
+  artifactKey: Guid(b457806e19ef442229e0cd49418d1d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Blue Rounded Switch On.png using Guid(b457806e19ef442229e0cd49418d1d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aeb277c9d5abc2c84fc2667785d81a9') in 0.0226091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Windows/Blue Square Window.png
+  artifactKey: Guid(439d5b7b84deb4a9596236dfe5b9d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Windows/Blue Square Window.png using Guid(439d5b7b84deb4a9596236dfe5b9d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05840cbeda51addaaed3b39b1282b8b1') in 0.0245344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Blue Rounded Button.png
+  artifactKey: Guid(0b4d929628fb1451b84de65e27f0789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Blue Rounded Button.png using Guid(0b4d929628fb1451b84de65e27f0789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '169e3896e01c454decf640b5e1ee5ff2') in 0.0266084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Blue Square Switch On.png
+  artifactKey: Guid(4071528e8551d4ce6b9cd02607d1858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Blue Square Switch On.png using Guid(4071528e8551d4ce6b9cd02607d1858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '054e61e7239ea47f9832beb7589b6406') in 0.0286688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.672486 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/Dark Checkerboard.png
+  artifactKey: Guid(4a4b973ee4fc740238c6360079c00a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/Dark Checkerboard.png using Guid(4a4b973ee4fc740238c6360079c00a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59992051377fbaaafc426be58c44be68') in 0.024206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.716119 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Dark Circle Outline Button.png
+  artifactKey: Guid(79008e6d026d84f94a594b62fa815314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Dark Circle Outline Button.png using Guid(79008e6d026d84f94a594b62fa815314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c33ca7d4fb1e06169fc3e73ea0ed88a') in 0.0444966 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Rounded Switch On.png
-  artifactKey: Guid(73f86462d8ca748bfa6ce29a228ceb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Rounded Switch On.png using Guid(73f86462d8ca748bfa6ce29a228ceb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ec5baa3f15f75b0c63e9b0173ead51a') in 0.0269111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Up Arrow.png
-  artifactKey: Guid(e22d3a7dcdf3347a9bdbd9c26bf18385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Up Arrow.png using Guid(e22d3a7dcdf3347a9bdbd9c26bf18385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ada6b5454e7033e14f20289b06208cc') in 0.0417455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Input Fields/White Input Field.png
-  artifactKey: Guid(f552135dd8b234310af7e8710d71ad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Input Fields/White Input Field.png using Guid(f552135dd8b234310af7e8710d71ad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc5112f7afe5d30235d14bf6c6bfe5c5') in 0.0268687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Plus.png
-  artifactKey: Guid(2485a46199e57482fb858f4c4982436b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Plus.png using Guid(2485a46199e57482fb858f4c4982436b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe76640e5523955dc5e4e2044586bd5f') in 0.0358514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Circle Outline Button.png
-  artifactKey: Guid(23e031f1dfb7b4eddae812b4a3a0e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Circle Outline Button.png using Guid(23e031f1dfb7b4eddae812b4a3a0e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27a49ebb81dcbbb347f22f51a7607a7b') in 0.0266842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Right Arrow.png
-  artifactKey: Guid(56b5445fb30cc460a8bdf929fc626bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Right Arrow.png using Guid(56b5445fb30cc460a8bdf929fc626bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f549c17cc8ee7be41b5a3384c7cb535b') in 0.0274928 seconds
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Gear.png
+  artifactKey: Guid(8c3c0166eb1b643f4a06a5354040bf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Gear.png using Guid(8c3c0166eb1b643f4a06a5354040bf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a133291c329d76553d6e831cf0ecf466') in 0.0475616 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Circle Button.png
-  artifactKey: Guid(e6450a15ab10f4016a29e51bb1036188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Circle Button.png using Guid(e6450a15ab10f4016a29e51bb1036188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23dadeed6db18a25d315bf30bf4cf24b') in 0.0284352 seconds
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Input Fields/Dark Input Field.png
+  artifactKey: Guid(f30f367f46e8043d28e148ddbdb619d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Input Fields/Dark Input Field.png using Guid(f30f367f46e8043d28e148ddbdb619d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b311d7268b400ab44618702fc136fbe9') in 0.0209566 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Exclamation.png
-  artifactKey: Guid(777beaf84bb8b41d4ae3fd993af441f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Exclamation.png using Guid(777beaf84bb8b41d4ae3fd993af441f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eb8bab4a64ab20199934f9cd76fff36') in 0.0287324 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Pause.png
+  artifactKey: Guid(41ffa33d53fb44752a17c9253186686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Pause.png using Guid(41ffa33d53fb44752a17c9253186686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '715caa304e678517388f3d49bc55e53e') in 0.0235305 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Pause.png
-  artifactKey: Guid(f202d0535d8d34970abcfaa21aba2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Pause.png using Guid(f202d0535d8d34970abcfaa21aba2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0430645879b68b788d3b5e6f4523c2a3') in 0.0323159 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Question.png
+  artifactKey: Guid(4011a12b3d33344f3964cfa65c962379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Question.png using Guid(4011a12b3d33344f3964cfa65c962379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38083ef93a84225f488b45d4ef9afebf') in 0.0373643 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Minus.png
-  artifactKey: Guid(ff2a254658ad5427fbb6aa23e6c5ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Minus.png using Guid(ff2a254658ad5427fbb6aa23e6c5ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4994a75913650d7657d8d2275905d7a6') in 0.0289882 seconds
+  Time since last request: 0.036293 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Dark Rounded Button.png
+  artifactKey: Guid(a80101232bdf848a38a10881ea870425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Dark Rounded Button.png using Guid(a80101232bdf848a38a10881ea870425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '178531ad39b7b4593979befe955118c4') in 0.0225789 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Down Arrow.png
-  artifactKey: Guid(ac1ea26e75c8e47a08fbbfa39f286d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Down Arrow.png using Guid(ac1ea26e75c8e47a08fbbfa39f286d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88de2148c704f6063f833b822ee0550c') in 0.0255871 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Dark Rounded Switch On.png
+  artifactKey: Guid(8b0b36ec102434636b1c95ff0e870fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Dark Rounded Switch On.png using Guid(8b0b36ec102434636b1c95ff0e870fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a994d395f75b3f8efb6729829d4a004') in 0.0215525 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Rounded Switch Off.png
-  artifactKey: Guid(292a2d83002c94c4c9ad558eca6802d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Rounded Switch Off.png using Guid(292a2d83002c94c4c9ad558eca6802d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8d307dc3e041c8e0bbadd9bc202e047') in 0.0253624 seconds
+  Time since last request: 0.000282 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Dark Square Outline Button.png
+  artifactKey: Guid(6c7b81f3c72974de19ac7027704d8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Dark Square Outline Button.png using Guid(6c7b81f3c72974de19ac7027704d8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9ed9307f992648f21dcaf35efaf91ee') in 0.022687 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.684375 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Red Rounded Switch On.png
-  artifactKey: Guid(0abaefb49cb9f499faaa0e59e90d7e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Red Rounded Switch On.png using Guid(0abaefb49cb9f499faaa0e59e90d7e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '811199f4e0593ad8c3773c3cba30d611') in 0.0356468 seconds
+  Time since last request: 0.047237 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Up Arrow.png
+  artifactKey: Guid(819578eb43eda44b0b066a9a66e75363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/Dark Up Arrow.png using Guid(819578eb43eda44b0b066a9a66e75363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '841802b1082c49d34f21d45da96c554e') in 0.0242032 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/Red Stripes.png
-  artifactKey: Guid(af7fd3c28a4714137aa51a67d07709cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/Red Stripes.png using Guid(af7fd3c28a4714137aa51a67d07709cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '674ef151664b3ca7a3d3adb1f5573c06') in 0.0269066 seconds
+  Time since last request: 1.131529 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Green Circle Button.png
+  artifactKey: Guid(9bf5fe38fdda04af29528c06a571c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Green Circle Button.png using Guid(9bf5fe38fdda04af29528c06a571c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddda08f25ab340d34c55c69d0009dcb9') in 0.0223224 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Red Square Outline Button.png
-  artifactKey: Guid(511ac66591df94f2490927beaa96acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Red Square Outline Button.png using Guid(511ac66591df94f2490927beaa96acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f71fd1be53c0707fc0389d3213e3196') in 0.0317193 seconds
+  Time since last request: 0.063770 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Green Round Tab.png
+  artifactKey: Guid(7aae8e35187dc4abba6b5b5656e303f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Green Round Tab.png using Guid(7aae8e35187dc4abba6b5b5656e303f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3d4f2189f4eee4e895c200e34c7cc91') in 0.0226283 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Windows/Red Square Window.png
-  artifactKey: Guid(27a61c3d0bc70471fb85b08b1faf6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Windows/Red Square Window.png using Guid(27a61c3d0bc70471fb85b08b1faf6251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae5cdca5a38e26c35e3fc05f691bb6ae') in 0.0530776 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Green Rounded Outline Button.png
+  artifactKey: Guid(cc4159309963a4576864561a4f6d8d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Green Rounded Outline Button.png using Guid(cc4159309963a4576864561a4f6d8d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf2aa1ffc1ecb2463dc294f9f67b78dd') in 0.026509 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.393003 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Red Round Inactive Tab.png
-  artifactKey: Guid(c5c88878883a3449b838351c70fe3608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Red Round Inactive Tab.png using Guid(c5c88878883a3449b838351c70fe3608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52f4faaa9c665b845137e9f6033575f5') in 0.0306493 seconds
+  Time since last request: 0.077179 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Green Square Switch On.png
+  artifactKey: Guid(080cf1c8b2e3243bd8caf2c7275f36d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/Green Square Switch On.png using Guid(080cf1c8b2e3243bd8caf2c7275f36d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a22548e2b3f54726ecd1fc59212aac8e') in 0.0205544 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Red Rounded Outline Button.png
-  artifactKey: Guid(1a6c2962623c74bc1ba317def2d16680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/Red Rounded Outline Button.png using Guid(1a6c2962623c74bc1ba317def2d16680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce0dab997f81e70efb5b5e285711118') in 0.0330805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Red Round Tab.png
-  artifactKey: Guid(006f88eb96b2444f7b0ca916c60fec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quantum Tek/Quantum UI/Sprites/Tabs/Red Round Tab.png using Guid(006f88eb96b2444f7b0ca916c60fec9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d44c9881ce65cfba3ba259e5e8efa5a') in 0.0308707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
