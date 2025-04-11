@@ -6,6 +6,8 @@ namespace TowerDefence.Scripts
     public class Singleton : MonoBehaviour
     {
         public Circunferencia2D circunferencia;
+        public int _points;
+        public Progression progression = new ();
         public List<ZombieAnimation> _zombieAnimations = new ();
         private static Singleton instance;
 
