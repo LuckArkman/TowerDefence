@@ -12,7 +12,7 @@ namespace TowerDefence.Scripts
     public class SpawnMontersController : MonoBehaviour
     {
         public ZombieAnimation _zombieAnimation;
-        public TextMeshProUGUI _wave, _monsterNumber, _points;
+        public TextMeshProUGUI _wave, _monsterNumber, _points, _level;
         public int maxSpawn;
         
         public Circunferencia2D circunferencia;

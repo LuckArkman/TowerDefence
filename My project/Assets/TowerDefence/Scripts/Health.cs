@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
 
 namespace TowerDefence.Scripts
 {
@@ -19,7 +20,12 @@ namespace TowerDefence.Scripts
         public void TakeDamage(int damage)
         {
             if (currentHealth > 0)currentHealth -= damage;
-            if (currentHealth <= 0) currentHealth = 0;
+            if (currentHealth <= 0)
+            {
+                var rn = new Random();
+                currentHealth = 0;
+                Singleton._Instance._points += rn.Next(0, 5);
+            }
             _gameObject.SetActive(true);
             _image.fillAmount = (float)currentHealth / (float)maxHealth;
         }

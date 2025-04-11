@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
+using Random = System.Random;
 
 namespace TowerDefence.Scripts
 {
@@ -33,7 +35,12 @@ namespace TowerDefence.Scripts
             if (target != null && Vector3.Distance(transform.position, target.transform.position) <= 0.05f)
             {
                 target._health.TakeDamage(5);
-                if(!target._health.IsAlive()) Destroy(target.gameObject);
+                if (!target._health.IsAlive())
+                {
+                    var rn = new Random();
+                    Singleton._Instance.progression.AddXp(rn.Next(0,5));
+                    Destroy(target.gameObject);
+                }
                 Destroy(this.gameObject);
             }
         }
