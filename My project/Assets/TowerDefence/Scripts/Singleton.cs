@@ -5,11 +5,32 @@ namespace TowerDefence.Scripts
 {
     public class Singleton : MonoBehaviour
     {
+        public int maxLevel;
+        public List<ProgressaoAvalible> progressaoAvalibles = new ();
+        public float experienceMultiplier = 1.5f;
         public Circunferencia2D circunferencia;
-        public int _points;
+        public int _points, _wave, _deadMonsters;
         public Progression progression = new ();
         public List<ZombieAnimation> _zombieAnimations = new ();
         private static Singleton instance;
+
+        [ContextMenu(nameof(OnTeste))]
+        public void OnTeste()
+        {
+            for (int i = progressaoAvalibles.Count; i < maxLevel; i++)
+            {
+                Debug.Log(i);
+                if (progressaoAvalibles.Count > 0)
+                {
+                    progressaoAvalibles.Add(new ProgressaoAvalible(
+                        Mathf.RoundToInt(progressaoAvalibles[i -1 ].xp * experienceMultiplier)));
+                }
+                if (progressaoAvalibles.Count <= 0)
+                {
+                    progressaoAvalibles.Add(new ProgressaoAvalible(100));
+                }
+            }
+        }
 
         public static Singleton _Instance
         {

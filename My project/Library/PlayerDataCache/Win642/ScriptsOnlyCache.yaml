@@ -4,20 +4,20 @@ ScriptsOnlyBuild:
     - Circunferencia2D
     - TowerDefence.Scripts.AIMoveToTarget2D
     - TowerDefence.Scripts.Bullet
+    - TowerDefence.Scripts.ProgressionController
+    - TowerDefence.Scripts.Singleton
     - TowerDefence.Scripts.SoldierAnimation
     - TowerDefence.Scripts.SoldierManager
     - TowerDefence.Scripts.SpawnMontersController
     - TowerDefence.Scripts.WallpaperManager
     - TowerDefence.Scripts.ZombieAnimation
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrushPickStore
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
@@ -110,10 +110,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -140,6 +138,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
@@ -332,149 +331,151 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 30282}
+      Script: {instanceID: 30558}
     - Class: 114
-      Script: {instanceID: 30446}
+      Script: {instanceID: 30726}
     - Class: 114
-      Script: {instanceID: 30650}
+      Script: {instanceID: 30936}
     - Class: 114
-      Script: {instanceID: 30686}
+      Script: {instanceID: 30972}
     - Class: 114
-      Script: {instanceID: 30730}
+      Script: {instanceID: 31018}
     - Class: 114
-      Script: {instanceID: 30906}
+      Script: {instanceID: 31208}
     - Class: 114
-      Script: {instanceID: 31054}
+      Script: {instanceID: 31358}
     - Class: 114
-      Script: {instanceID: 31116}
+      Script: {instanceID: 31422}
     - Class: 114
-      Script: {instanceID: 31172}
+      Script: {instanceID: 31478}
     - Class: 114
-      Script: {instanceID: 31274}
+      Script: {instanceID: 31582}
     - Class: 114
-      Script: {instanceID: 31366}
+      Script: {instanceID: 31676}
     - Class: 114
-      Script: {instanceID: 31502}
+      Script: {instanceID: 31818}
     - Class: 114
-      Script: {instanceID: 31752}
+      Script: {instanceID: 32074}
     - Class: 114
-      Script: {instanceID: 31952}
+      Script: {instanceID: 32282}
     - Class: 114
-      Script: {instanceID: 32294}
+      Script: {instanceID: 32632}
     - Class: 114
-      Script: {instanceID: 32348}
+      Script: {instanceID: 32686}
     - Class: 114
-      Script: {instanceID: 32414}
+      Script: {instanceID: 32752}
     - Class: 114
-      Script: {instanceID: 32504}
+      Script: {instanceID: 32844}
     - Class: 114
-      Script: {instanceID: 32724}
+      Script: {instanceID: 33066}
     - Class: 114
-      Script: {instanceID: 32810}
+      Script: {instanceID: 33152}
     - Class: 114
-      Script: {instanceID: 32846}
+      Script: {instanceID: 33188}
     - Class: 114
-      Script: {instanceID: 32902}
+      Script: {instanceID: 33244}
     - Class: 114
-      Script: {instanceID: 32934}
+      Script: {instanceID: 33276}
     - Class: 114
-      Script: {instanceID: 32966}
+      Script: {instanceID: 33312}
     - Class: 114
-      Script: {instanceID: 33350}
+      Script: {instanceID: 33706}
     - Class: 114
-      Script: {instanceID: 33800}
+      Script: {instanceID: 34168}
     - Class: 114
-      Script: {instanceID: 34096}
+      Script: {instanceID: 34470}
     - Class: 114
-      Script: {instanceID: 34102}
+      Script: {instanceID: 34476}
     - Class: 114
-      Script: {instanceID: 34110}
+      Script: {instanceID: 34484}
     - Class: 114
-      Script: {instanceID: 34740}
+      Script: {instanceID: 35124}
     - Class: 114
-      Script: {instanceID: 34758}
+      Script: {instanceID: 35142}
     - Class: 114
-      Script: {instanceID: 34800}
+      Script: {instanceID: 35184}
     - Class: 114
-      Script: {instanceID: 34838}
+      Script: {instanceID: 35222}
     - Class: 114
-      Script: {instanceID: 34896}
+      Script: {instanceID: 35280}
     - Class: 114
-      Script: {instanceID: 35102}
+      Script: {instanceID: 35492}
     - Class: 114
-      Script: {instanceID: 35192}
+      Script: {instanceID: 35584}
     - Class: 114
-      Script: {instanceID: 35224}
+      Script: {instanceID: 35616}
     - Class: 114
-      Script: {instanceID: 35254}
+      Script: {instanceID: 35646}
     - Class: 114
-      Script: {instanceID: 35330}
+      Script: {instanceID: 35724}
     - Class: 114
-      Script: {instanceID: 35410}
+      Script: {instanceID: 35804}
     - Class: 114
-      Script: {instanceID: 35518}
+      Script: {instanceID: 35912}
     - Class: 114
-      Script: {instanceID: 35954}
+      Script: {instanceID: 36354}
     - Class: 114
-      Script: {instanceID: 36102}
+      Script: {instanceID: 36454}
     - Class: 114
-      Script: {instanceID: 36282}
+      Script: {instanceID: 36512}
     - Class: 114
-      Script: {instanceID: 36378}
+      Script: {instanceID: 36700}
     - Class: 114
-      Script: {instanceID: 36380}
+      Script: {instanceID: 36796}
     - Class: 114
-      Script: {instanceID: 36622}
+      Script: {instanceID: 36798}
     - Class: 114
-      Script: {instanceID: 37342}
+      Script: {instanceID: 37044}
     - Class: 114
-      Script: {instanceID: 37762}
+      Script: {instanceID: 37776}
     - Class: 114
-      Script: {instanceID: 37880}
+      Script: {instanceID: 38208}
     - Class: 114
-      Script: {instanceID: 37902}
+      Script: {instanceID: 38330}
     - Class: 114
-      Script: {instanceID: 38858}
+      Script: {instanceID: 38352}
     - Class: 114
-      Script: {instanceID: 39264}
+      Script: {instanceID: 39324}
     - Class: 114
-      Script: {instanceID: 39316}
+      Script: {instanceID: 39502}
     - Class: 114
-      Script: {instanceID: 39592}
+      Script: {instanceID: 39740}
     - Class: 114
-      Script: {instanceID: 39664}
+      Script: {instanceID: 39792}
     - Class: 114
-      Script: {instanceID: 39756}
+      Script: {instanceID: 40076}
     - Class: 114
-      Script: {instanceID: 40172}
+      Script: {instanceID: 40150}
     - Class: 114
-      Script: {instanceID: 40282}
+      Script: {instanceID: 40242}
     - Class: 114
-      Script: {instanceID: 40284}
+      Script: {instanceID: 40666}
     - Class: 114
-      Script: {instanceID: 40300}
+      Script: {instanceID: 40780}
     - Class: 114
-      Script: {instanceID: 40390}
+      Script: {instanceID: 40782}
     - Class: 114
-      Script: {instanceID: 40522}
+      Script: {instanceID: 40798}
     - Class: 114
-      Script: {instanceID: 40608}
+      Script: {instanceID: 40888}
     - Class: 114
-      Script: {instanceID: 40636}
+      Script: {instanceID: 41024}
     - Class: 114
-      Script: {instanceID: 40786}
+      Script: {instanceID: 41114}
     - Class: 114
-      Script: {instanceID: 41030}
+      Script: {instanceID: 41144}
     - Class: 114
-      Script: {instanceID: 41112}
+      Script: {instanceID: 41298}
     - Class: 114
-      Script: {instanceID: 41328}
+      Script: {instanceID: 41548}
     - Class: 114
-      Script: {instanceID: 41394}
+      Script: {instanceID: 41632}
     - Class: 114
-      Script: {instanceID: 41498}
+      Script: {instanceID: 41858}
     - Class: 114
-      Script: {instanceID: 51844}
+      Script: {instanceID: 41924}
+    - Class: 114
+      Script: {instanceID: 42032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -582,7 +583,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 7412a0fe67dca3eb9d1797314ff86912
+      Hash: 666e5c1f3d86a110baf6acc92dd583eb
     assemblyName: Assembly-CSharp
     namespaceName: TowerDefence.Scripts
     className: SpawnMontersController
@@ -666,6 +667,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerRow
   - hash:
       serializedVersion: 2
+      Hash: 53a1530732e150c64f5befa40ed3ad2c
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_Menu
+  - hash:
+      serializedVersion: 2
       Hash: 2bbd05175d4cdd21e24f9716cdd24f83
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.XR
@@ -726,6 +733,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 858c5ab0e2ceedb3991d1f8633f0df16
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_SceneTransition
+  - hash:
+      serializedVersion: 2
       Hash: ef19274111491b6b8bcc6fd227f656f5
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -736,6 +749,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: ac010998c99c6585d1d56bac978a0f0d
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_ElementAudio
+  - hash:
+      serializedVersion: 2
+      Hash: cda449baf3f75a72a655488e27645ab9
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_TabWindow
   - hash:
       serializedVersion: 2
       Hash: ee34255e3e86289bde9bad5e07b84cbc
@@ -792,10 +817,22 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 43d9be5316a5b32f729ecd13fa0f801e
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_TabGroup
+  - hash:
+      serializedVersion: 2
       Hash: de8e34fffe62b77ca47bae273d0414ba
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
     className: ObsoleteProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcbba344d8a89ca19eb3aee5c1ddb043
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_ElementAnimator
   - hash:
       serializedVersion: 2
       Hash: c4de0ff7e075dd89c9fed5913dd775d2
@@ -1218,6 +1255,12 @@ ScriptsOnlyBuild:
     className: Benchmark02
   - hash:
       serializedVersion: 2
+      Hash: bf58e1532a52079bec0fc65a748b615f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FillValueNumber
+  - hash:
+      serializedVersion: 2
       Hash: 3074afe1b03a0fb081e176a4ef1b9d09
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -1458,6 +1501,12 @@ ScriptsOnlyBuild:
     className: ForwardRendererData
   - hash:
       serializedVersion: 2
+      Hash: 0064506715b3babea31d09415e015fd4
+    assemblyName: Assembly-CSharp
+    namespaceName: TowerDefence.Scripts
+    className: WallpaperManager
+  - hash:
+      serializedVersion: 2
       Hash: a90f6a00b23520788be7d89ee3b0773d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1486,6 +1535,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 7f380b7196632d54238bb3635a7af923
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_ElementAudioPreset
   - hash:
       serializedVersion: 2
       Hash: e8d390bd9ecacc453a7500b90d0c0292
@@ -1564,6 +1619,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 12d0a74b50ffb032affaa0344dc4f921
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_Bar
   - hash:
       serializedVersion: 2
       Hash: 6d94138b60a9299798dda96c1ee6725f
@@ -1716,6 +1777,12 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 5a4a5d1da745f0b41d72143755054a49
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_OptionList
+  - hash:
+      serializedVersion: 2
       Hash: ec6cf673540b2d4e42c612611eeafe4d
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1732,6 +1799,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 8a287eeba33bf56f537ca1b6107872ca
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_Tab
   - hash:
       serializedVersion: 2
       Hash: 8fe6d4f095ce838f5396d1867140a9b6
@@ -1798,6 +1871,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: c86f5e9ba90b79a4ef5066a6ca329cd9
+    assemblyName: Assembly-CSharp
+    namespaceName: TowerDefence.Scripts
+    className: ProgressionController
+  - hash:
+      serializedVersion: 2
+      Hash: 1749de99ff41afedf3506060e2fe6ba7
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_SwitchToggle
   - hash:
       serializedVersion: 2
       Hash: ad49e20f31ed572e586aa8bbaafb591b
@@ -2088,6 +2173,12 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_B
   - hash:
       serializedVersion: 2
+      Hash: ee2903a603625bfcbbe5c3213c83e0a9
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_ElementAnimationPreset
+  - hash:
+      serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2136,7 +2227,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerVector4
   - hash:
       serializedVersion: 2
-      Hash: af5f0fc5ffa1ccc83c026ab15acb5d38
+      Hash: 855c3da11259b6aa1728d55791839ffa
     assemblyName: Assembly-CSharp
     namespaceName: TowerDefence.Scripts
     className: Singleton
@@ -2244,6 +2335,12 @@ ScriptsOnlyBuild:
     className: DropdownSample
   - hash:
       serializedVersion: 2
+      Hash: 66eb6fa9abd8ce12dd5574c90a83235b
+    assemblyName: Assembly-CSharp
+    namespaceName: QuantumTek.QuantumUI
+    className: QUI_Window
+  - hash:
+      serializedVersion: 2
       Hash: 83cfda82082c233d96cc677c19f57e07
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2290,13 +2387,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 0064506715b3babea31d09415e015fd4
-    assemblyName: Assembly-CSharp
-    namespaceName: TowerDefence.Scripts
-    className: WallpaperManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: J:/build/My project.exe
+  playerPath: I:/Build/My project.exe

@@ -13,7 +13,7 @@ namespace TowerDefence.Scripts
 
         public bool OnLevel;
         
-        public void AddExperience(int amount)
+        public void AddExperience(long amount)
         {
             _progression.currentExperience += amount;
             if (_progression.currentExperience >= _progression.experienceToNextLevel) LevelUp();

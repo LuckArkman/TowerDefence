@@ -39,6 +39,7 @@ namespace TowerDefence.Scripts
                 {
                     var rn = new Random();
                     Singleton._Instance.progression.AddXp(rn.Next(0,5));
+                    Singleton._Instance._deadMonsters++;
                     Destroy(target.gameObject);
                 }
                 Destroy(this.gameObject);
