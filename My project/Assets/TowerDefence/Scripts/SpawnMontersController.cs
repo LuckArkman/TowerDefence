@@ -25,13 +25,10 @@ namespace TowerDefence.Scripts
 
         private void WaveProgress()
         {
-            _wave.text = $"Wave : {waveController.waveNumber}";
             int x = 0;
-            if (waveController.totalSpawn < waveController.SpawnNumber)
-            {
                 Random rn = new Random();
-                //bool value = new Random().NextDouble() <= (10 / 100);
-                //if(value)x = rn.Next(0, maxSpawn * 2);
+                bool value = new Random().NextDouble() <= (10 / 100);
+                if(value)x = rn.Next(0, maxSpawn * 2);
                 x = rn.Next(0, maxSpawn);
                 for (int i = 0; i < x; i++)
                 {
@@ -40,9 +37,8 @@ namespace TowerDefence.Scripts
                     var monster = Instantiate(_zombieAnimation, position, Quaternion.identity);
                     Singleton._Instance._zombieAnimations.Add(monster);
                 }
-                waveController.totalSpawn += x;
+                Singleton._Instance._wave++;
                 _monsterNumber.text = $"Monters : {waveController.totalSpawn} / {waveController.SpawnNumber}";
-            }
         }
     }
 }

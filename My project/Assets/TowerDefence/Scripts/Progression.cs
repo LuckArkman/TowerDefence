@@ -7,8 +7,8 @@ namespace TowerDefence.Scripts
     public class Progression
     {
         public int level = 1; 
-        public int currentExperience = 0;
-        public int experienceToNextLevel = 100; 
+        public long currentExperience = 0;
+        public long experienceToNextLevel = 100; 
         public float experienceMultiplier = 1.5f;
         public Progression(){}
 
