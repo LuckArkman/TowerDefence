@@ -1,19 +1,19 @@
 {
   "context": {
-    "projectPath": "H:/TowerDefence/My project/Packages",
-    "unityVersion": "6000.0.42f1"
+    "projectPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Packages",
+    "unityVersion": "6000.1.0f1"
   },
   "inputs": [
-    "H:\\TowerDefence\\My project\\Packages\\manifest.json",
-    "H:\\TowerDefence\\My project\\Packages\\packages-lock.json",
-    "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Packages/manifest.json",
+    "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Packages/packages-lock.json",
+    "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.2d.sprite@072d7bd355e5",
-      "fingerprint": "072d7bd355e55ee3ded20a6a52435a4f5fded0d8",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.2d.sprite@d6c2e4df2323",
+      "fingerprint": "d6c2e4df2323179bca55c96e26c13513fff9ffea",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -22,117 +22,127 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.2d.tilemap@91afae292a4e",
-      "fingerprint": "91afae292a4e9c80c9c83328346b52d1bb443abe",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.2d.tilemap@1ec41d308fc0",
+      "fingerprint": "1ec41d308fc02626d30bd06531551797f7fe62b3",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ai.navigation@2.0.6": {
+    "com.unity.ai.navigation@2.0.7": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.ai.navigation@c74b2724ed42",
-      "fingerprint": "c74b2724ed42c1aa0380e294156d7f54a7ae2ec6",
-      "editorCompatibility": "2023.2.0a18",
-      "version": "2.0.6",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.ai.navigation@39ae74efb85f",
+      "fingerprint": "39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.7",
       "source": "registry",
       "testable": false
     },
     "com.unity.collab-proxy@2.7.1": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.collab-proxy@50ac96531b63",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.collab-proxy@50ac96531b63",
       "fingerprint": "50ac96531b6358586ccfdf8cc845939bf50d9fab",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.7.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.31": {
+    "com.unity.ide.rider@3.0.36": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.ide.rider@7921be93db40",
-      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
-      "editorCompatibility": "2019.2.6f1",
-      "version": "3.0.31",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db",
+      "fingerprint": "4d374c7eb6db6907c7e6925e3086c3c73f926e13",
+      "editorCompatibility": "2019.4.6f1",
+      "version": "3.0.36",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.visualstudio@2.0.22": {
+    "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.ide.visualstudio@8140e851d83e",
-      "fingerprint": "8140e851d83e922ca2021b04a89519de94ebe38c",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
+      "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
-      "version": "2.0.22",
+      "version": "2.0.23",
       "source": "registry",
       "testable": false
     },
     "com.unity.ide.vscode@1.1.4": {
       "name": "com.unity.ide.vscode",
       "displayName": "Visual Studio Code Editor",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.ide.vscode@1a4cb8baed51",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.ide.vscode@1a4cb8baed51",
       "fingerprint": "1a4cb8baed5112216a5206ec440095cd28ddd577",
       "editorCompatibility": "2019.2.0a12",
       "version": "1.1.4",
       "source": "registry",
       "testable": false
     },
-    "com.unity.inputsystem@1.13.1": {
+    "com.unity.inputsystem@1.14.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.inputsystem@e2c83221d2dc",
-      "fingerprint": "e2c83221d2dc3fc990b017cbd3f9d0742649c8a8",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.inputsystem@7fe8299111a7",
+      "fingerprint": "7fe8299111a78212d8968229ab41a82e4991ba25",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "source": "registry",
       "testable": false
     },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
-      "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06",
+      "fingerprint": "f5e57a8bed0637672c58142b1bfd7e6fea03746c",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.render-pipelines.universal@17.0.4": {
+    "com.unity.render-pipelines.universal@17.1.0": {
       "name": "com.unity.render-pipelines.universal",
-      "displayName": "Universal RP",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@087c6d6dbb7d",
-      "fingerprint": "087c6d6dbb7d8991da3bd6895fbd4fa421d0ec77",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
+      "displayName": "Universal Render Pipeline",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.render-pipelines.universal@2ea7da00be5d",
+      "fingerprint": "2ea7da00be5dac8dad1baabf3e67bb80ba694b2e",
+      "editorCompatibility": "6000.1.0a1",
+      "version": "17.1.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.test-framework@1.4.6": {
+    "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.test-framework@5ac417e07314",
-      "fingerprint": "5ac417e07314c8f6afba8109738c32b82d391e68",
-      "editorCompatibility": "2019.4.1f1",
-      "version": "1.4.6",
-      "source": "registry",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.test-framework@2044756c6174",
+      "fingerprint": "2044756c61746838ad040394e87cf7287a1731ad",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.5.1",
+      "source": "builtin",
       "testable": false
     },
     "com.unity.timeline@1.8.7": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.timeline@c58b4ee65782",
       "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.8.7",
       "source": "registry",
       "testable": false
     },
+    "com.unity.toolchain.linux-x86_64@2.0.10": {
+      "name": "com.unity.toolchain.linux-x86_64",
+      "displayName": "Toolchain Linux x64",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.toolchain.linux-x86_64@5a6ce31f8a65",
+      "fingerprint": "5a6ce31f8a65b8bae16857cfbdc108c58cdd34f9",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.toolchain.win-x86_64-linux-x86_64@2.0.10": {
       "name": "com.unity.toolchain.win-x86_64-linux-x86_64",
       "displayName": "Toolchain Win Linux x64",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.toolchain.win-x86_64-linux-x86_64@426618737602",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@426618737602",
       "fingerprint": "426618737602d0ff76e85db678b73b56aa2e891a",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.10",
@@ -142,27 +152,27 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.ugui@9496653a3df6",
-      "fingerprint": "9496653a3df6648f8e3a165cac05bba08c614150",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.ugui@107a4460a6ba",
+      "fingerprint": "107a4460a6ba8f20caf1f99b671bf626ae2aceda",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.5": {
+    "com.unity.visualscripting@1.9.6": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.visualscripting@1b53f46e931b",
-      "fingerprint": "1b53f46e931bea668e53f1feb0ac9138170c9455",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.visualscripting@7dcdc439b230",
+      "fingerprint": "7dcdc439b230145cec4202cd6ebad135736e0c14",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.5",
+      "version": "1.9.6",
       "source": "registry",
       "testable": false
     },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -170,7 +180,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -178,7 +188,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -186,7 +196,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -194,7 +204,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -202,7 +212,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -210,7 +220,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -218,7 +228,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -226,7 +236,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -234,7 +244,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -242,7 +252,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -250,7 +260,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -258,7 +268,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,7 +276,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -274,7 +284,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -282,7 +292,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,7 +300,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -298,7 +308,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -306,7 +316,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,7 +324,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -322,7 +332,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -330,7 +340,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -338,7 +348,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -346,7 +356,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -354,7 +364,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -362,7 +372,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -370,7 +380,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -378,7 +388,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -386,7 +396,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -394,7 +404,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -402,7 +412,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -410,7 +420,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -418,7 +428,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -426,7 +436,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "J:\\.Editor\\6000.0.42f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "/run/media/mplopes/Novo volume1/.Editor/6000.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -434,7 +444,7 @@
     "com.unity.sysroot@2.0.10": {
       "name": "com.unity.sysroot",
       "displayName": "Sysroot Base",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.sysroot@7bbbb9339c14",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.sysroot@7bbbb9339c14",
       "fingerprint": "7bbbb9339c143f6fbccaeb0a52c77b9217b35a71",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.10",
@@ -444,7 +454,7 @@
     "com.unity.sysroot.linux-x86_64@2.0.9": {
       "name": "com.unity.sysroot.linux-x86_64",
       "displayName": "Sysroot Linux x64",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.sysroot.linux-x86_64@1998d1c7730e",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e",
       "fingerprint": "1998d1c7730e48fa49f28d983fececfc9cbd970b",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.9",
@@ -454,38 +464,38 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.ext.nunit@60ef35ffd3cd",
-      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93",
+      "fingerprint": "b16e6d09cd93f527249a1f05a86ef45695dc934b",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.render-pipelines.core@17.0.4": {
-      "name": "com.unity.render-pipelines.core",
-      "displayName": "Core RP Library",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.render-pipelines.core@1c27dfa04d8a",
-      "fingerprint": "1c27dfa04d8a867598262cf2eb00e9ea30fd7e45",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.shadergraph@17.0.4": {
+    "com.unity.render-pipelines.core@17.1.0": {
+      "name": "com.unity.render-pipelines.core",
+      "displayName": "Scriptable Render Pipeline Core",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.render-pipelines.core@1a783fb1a7dc",
+      "fingerprint": "1a783fb1a7dc33bcfa55e9a8b7b2d3a58c544b9e",
+      "editorCompatibility": "6000.1.0a1",
+      "version": "17.1.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.shadergraph@17.1.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.shadergraph@608f316e1f48",
-      "fingerprint": "608f316e1f488790b4bead70108fe0435af5a43f",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.shadergraph@364c64ac2eb3",
+      "fingerprint": "364c64ac2eb385dcfd3946f05c56b580c7ba9479",
+      "editorCompatibility": "6000.1.0a1",
+      "version": "17.1.0",
       "source": "builtin",
       "testable": false
     },
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
-      "displayName": "Universal RP Config",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@fa63c96d3e1a",
-      "fingerprint": "fa63c96d3e1af317d84d171cd6c0e0658ab159df",
+      "displayName": "Universal Render Pipeline Config",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.render-pipelines.universal-config@c25b83604850",
+      "fingerprint": "c25b8360485019ea093b83f304bc644f3a88c2e1",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin",
@@ -494,27 +504,27 @@
     "com.unity.searcher@4.9.3": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.searcher@1e17ce91558d",
       "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
       "editorCompatibility": "2019.1.0a1",
       "version": "4.9.3",
       "source": "registry",
       "testable": false
     },
-    "com.unity.burst@1.8.19": {
+    "com.unity.burst@1.8.21": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.burst@7a907cf5a459",
-      "fingerprint": "7a907cf5a4591e4e25f4203e3be84f240058c34d",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.burst@59eb6f11d242",
+      "fingerprint": "59eb6f11d2422f95682320d9daa3e79fdb076744",
       "editorCompatibility": "2020.3.0a1",
-      "version": "1.8.19",
+      "version": "1.8.21",
       "source": "registry",
       "testable": false
     },
     "com.unity.mathematics@1.3.2": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.mathematics@8017b507cc74",
       "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.2",
@@ -524,7 +534,7 @@
     "com.unity.collections@2.5.1": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.collections@56bff8827a7e",
       "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
       "editorCompatibility": "2022.3.11f1",
       "version": "2.5.1",
@@ -534,8 +544,8 @@
     "com.unity.rendering.light-transport@1.0.1": {
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.rendering.light-transport@307bc27a498f",
-      "fingerprint": "307bc27a498fc9cd409bbd426c85d8dc7f140bc1",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.rendering.light-transport@e2fe13a85523",
+      "fingerprint": "e2fe13a855238c557a91a1ce4de92d791ed8244d",
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin",
@@ -544,20 +554,20 @@
     "com.unity.nuget.mono-cecil@1.11.4": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f",
       "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
       "editorCompatibility": "2018.4.0a1",
       "version": "1.11.4",
       "source": "registry",
       "testable": false
     },
-    "com.unity.test-framework.performance@3.0.3": {
+    "com.unity.test-framework.performance@3.1.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
-      "resolvedPath": "H:\\TowerDefence\\My project\\Library\\PackageCache\\com.unity.test-framework.performance@fb0dc592af8b",
-      "fingerprint": "fb0dc592af8b524f1a06c50d7caf95552f1bcd2f",
+      "resolvedPath": "/home/mplopes/Documentos/GitHub/TowerDefence/My project/Library/PackageCache/com.unity.test-framework.performance@92d1d09a72ed",
+      "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
       "editorCompatibility": "2020.3.0a1",
-      "version": "3.0.3",
+      "version": "3.1.0",
       "source": "registry",
       "testable": false
     }
